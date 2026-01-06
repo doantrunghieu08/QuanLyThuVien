@@ -76,5 +76,10 @@ namespace QuanLyThuVien
             frm.Show();
             frm.BringToFront();
         }
+
+        private void quảnLToolStripMenuItem_DropDownItemClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

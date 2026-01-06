@@ -97,7 +97,7 @@ namespace QuanLyThuVien
             this.button2.TabIndex = 3;
             this.button2.Text = "Xuất pdf";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -108,6 +108,7 @@ namespace QuanLyThuVien
             this.button1.TabIndex = 2;
             this.button1.Text = "Xuất excel";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -125,6 +126,7 @@ namespace QuanLyThuVien
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(374, 22);
             this.txtTimKiem.TabIndex = 0;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -168,6 +170,7 @@ namespace QuanLyThuVien
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormTimSach";
             this.Text = "FormTimSach";
+            this.Load += new System.EventHandler(this.FormTimSach_Load);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
