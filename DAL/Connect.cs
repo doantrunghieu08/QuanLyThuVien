@@ -1,5 +1,6 @@
 ﻿using System.Data.SqlClient;
 using System.Data;
+using System.Drawing;
 
 namespace DTO
 {
@@ -8,7 +9,6 @@ namespace DTO
         
         private string strConn = "Data Source=TrungHieu\\SQLEXPRESS;Initial Catalog=QLTV_HieuDT_3725_LTMT5;User ID=sa;Password=1234567890;Encrypt=False";
 
-        
         public SqlConnection GetConnection()
         {
             return new SqlConnection(strConn);

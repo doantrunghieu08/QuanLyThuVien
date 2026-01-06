@@ -7,6 +7,59 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Include="obj\Debug\net472\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+	  <Compile Include="obj\Debug\net472\BUS.GlobalUsings.g.cs" />
+	  <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+	  <Compile Include="obj\Debug\net8.0\BUS.AssemblyInfo.cs" />
+	  <Compile Include="obj\Debug\net8.0\BUS.GlobalUsings.g.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="bin\Debug\net8.0\BUS.deps.json" />
+	  <Content Include="obj\BUS.csproj.nuget.dgspec.json" />
+	  <Content Include="obj\Debug\net472\BUS.csproj.FileListAbsolute.txt" />
+	  <Content Include="obj\Debug\net472\BUS.sourcelink.json" />
+	  <Content Include="obj\Debug\net8.0\BUS.csproj.FileListAbsolute.txt" />
+	  <Content Include="obj\project.assets.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="bin\Debug\net472\BUS.dll" />
+	  <None Include="bin\Debug\net472\BUS.pdb" />
+	  <None Include="bin\Debug\net472\DAL.dll" />
+	  <None Include="bin\Debug\net472\DAL.pdb" />
+	  <None Include="bin\Debug\net472\DTO.dll" />
+	  <None Include="bin\Debug\net472\DTO.pdb" />
+	  <None Include="bin\Debug\net472\System.Data.SqlClient.dll" />
+	  <None Include="bin\Debug\net8.0\BUS.dll" />
+	  <None Include="bin\Debug\net8.0\BUS.pdb" />
+	  <None Include="bin\Debug\net8.0\DAL.dll" />
+	  <None Include="bin\Debug\net8.0\DAL.pdb" />
+	  <None Include="bin\Debug\net8.0\DTO.dll" />
+	  <None Include="bin\Debug\net8.0\DTO.pdb" />
+	  <None Include="obj\BUS.csproj.nuget.g.props" />
+	  <None Include="obj\BUS.csproj.nuget.g.targets" />
+	  <None Include="obj\Debug\net472\BUS.assets.cache" />
+	  <None Include="obj\Debug\net472\BUS.csproj.AssemblyReference.cache" />
+	  <None Include="obj\Debug\net472\BUS.csproj.BuildWithSkipAnalyzers" />
+	  <None Include="obj\Debug\net472\BUS.csproj.CoreCompileInputs.cache" />
+	  <None Include="obj\Debug\net472\BUS.csproj.Up2Date" />
+	  <None Include="obj\Debug\net472\BUS.dll" />
+	  <None Include="obj\Debug\net472\BUS.GeneratedMSBuildEditorConfig.editorconfig" />
+	  <None Include="obj\Debug\net472\BUS.pdb" />
+	  <None Include="obj\Debug\net8.0\BUS.AssemblyInfoInputs.cache" />
+	  <None Include="obj\Debug\net8.0\BUS.assets.cache" />
+	  <None Include="obj\Debug\net8.0\BUS.csproj.CoreCompileInputs.cache" />
+	  <None Include="obj\Debug\net8.0\BUS.csproj.Up2Date" />
+	  <None Include="obj\Debug\net8.0\BUS.dll" />
+	  <None Include="obj\Debug\net8.0\BUS.GeneratedMSBuildEditorConfig.editorconfig" />
+	  <None Include="obj\Debug\net8.0\BUS.pdb" />
+	  <None Include="obj\Debug\net8.0\refint\BUS.dll" />
+	  <None Include="obj\Debug\net8.0\ref\BUS.dll" />
+	  <None Include="obj\project.nuget.cache" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Reference Include="System.Data" />
 		<Reference Include="System.Windows.Forms" />
 	</ItemGroup>
