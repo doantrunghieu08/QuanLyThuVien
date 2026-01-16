@@ -76,7 +76,7 @@ namespace QuanLyThuVien
                 }
 
                 // 2. Khởi tạo báo cáo
-                baoCaoSach rpt = new baoCaoSach();
+                baoCaoPhieuMuon rpt = new baoCaoPhieuMuon();
 
                 // 3. Đổ dữ liệu
                 rpt.SetDataSource(dtHienTai);
@@ -94,7 +94,7 @@ namespace QuanLyThuVien
             }
             catch (Exception ex)
             {
-                // Hiện lỗi ra để biết đường sửa thay vì thoát app
+                
                 MessageBox.Show("Có lỗi xảy ra: " + ex.Message);
             }
         }

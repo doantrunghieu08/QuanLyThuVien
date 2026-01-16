@@ -51,7 +51,7 @@ namespace QuanLyThuVien
                 }
 
                 // 2. Khởi tạo báo cáo
-                baoCaoSach rpt = new baoCaoSach();
+                baoCaoDocGia rpt = new baoCaoDocGia();
 
                 // 3. Đổ dữ liệu
                 rpt.SetDataSource(dtHienTai);

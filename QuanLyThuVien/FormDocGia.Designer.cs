@@ -269,6 +269,7 @@ namespace QuanLyThuVien
             this.dgvDocGia.RowHeadersWidth = 51;
             this.dgvDocGia.Size = new System.Drawing.Size(1076, 171);
             this.dgvDocGia.TabIndex = 2;
+            this.dgvDocGia.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDocGia_CellClick);
             // 
             // panel2
             // 
@@ -325,6 +326,7 @@ namespace QuanLyThuVien
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormDocGia";
             this.Text = "FormDocGia";
+            this.Load += new System.EventHandler(this.FormDocGia_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();

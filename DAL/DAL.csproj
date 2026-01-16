@@ -7,55 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Include="obj\Debug\net472\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-	  <Compile Include="obj\Debug\net472\DAL.GlobalUsings.g.cs" />
-	  <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-	  <Compile Include="obj\Debug\net8.0\DAL.AssemblyInfo.cs" />
-	  <Compile Include="obj\Debug\net8.0\DAL.GlobalUsings.g.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="bin\Debug\net8.0\DAL.deps.json" />
-	  <Content Include="obj\DAL.csproj.nuget.dgspec.json" />
-	  <Content Include="obj\Debug\net472\DAL.csproj.FileListAbsolute.txt" />
-	  <Content Include="obj\Debug\net472\DAL.sourcelink.json" />
-	  <Content Include="obj\Debug\net8.0\DAL.csproj.FileListAbsolute.txt" />
-	  <Content Include="obj\project.assets.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include="bin\Debug\net472\DAL.dll" />
-	  <None Include="bin\Debug\net472\DAL.pdb" />
-	  <None Include="bin\Debug\net472\DTO.dll" />
-	  <None Include="bin\Debug\net472\DTO.pdb" />
-	  <None Include="bin\Debug\net472\System.Data.SqlClient.dll" />
-	  <None Include="bin\Debug\net8.0\DAL.dll" />
-	  <None Include="bin\Debug\net8.0\DAL.pdb" />
-	  <None Include="bin\Debug\net8.0\DTO.dll" />
-	  <None Include="bin\Debug\net8.0\DTO.pdb" />
-	  <None Include="obj\DAL.csproj.nuget.g.props" />
-	  <None Include="obj\DAL.csproj.nuget.g.targets" />
-	  <None Include="obj\Debug\net472\DAL.assets.cache" />
-	  <None Include="obj\Debug\net472\DAL.csproj.AssemblyReference.cache" />
-	  <None Include="obj\Debug\net472\DAL.csproj.BuildWithSkipAnalyzers" />
-	  <None Include="obj\Debug\net472\DAL.csproj.CoreCompileInputs.cache" />
-	  <None Include="obj\Debug\net472\DAL.csproj.Up2Date" />
-	  <None Include="obj\Debug\net472\DAL.dll" />
-	  <None Include="obj\Debug\net472\DAL.GeneratedMSBuildEditorConfig.editorconfig" />
-	  <None Include="obj\Debug\net472\DAL.pdb" />
-	  <None Include="obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache" />
-	  <None Include="obj\Debug\net8.0\DAL.assets.cache" />
-	  <None Include="obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache" />
-	  <None Include="obj\Debug\net8.0\DAL.csproj.Up2Date" />
-	  <None Include="obj\Debug\net8.0\DAL.dll" />
-	  <None Include="obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig" />
-	  <None Include="obj\Debug\net8.0\DAL.pdb" />
-	  <None Include="obj\Debug\net8.0\refint\DAL.dll" />
-	  <None Include="obj\Debug\net8.0\ref\DAL.dll" />
-	  <None Include="obj\project.nuget.cache" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
 	</ItemGroup>
 

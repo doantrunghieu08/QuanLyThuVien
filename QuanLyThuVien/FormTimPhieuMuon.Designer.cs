@@ -42,6 +42,7 @@ namespace QuanLyThuVien
             this.dgvChiTietPM = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dgvPhieuMuon = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -74,26 +75,27 @@ namespace QuanLyThuVien
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.67164F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 74.32836F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.10976F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.89024F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(359, 328);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.btnXuatReport);
             this.panel4.Controls.Add(this.btnXuatExcel);
             this.panel4.Controls.Add(this.txtTimKiem);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 86);
+            this.panel4.Location = new System.Drawing.Point(3, 127);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(353, 240);
+            this.panel4.Size = new System.Drawing.Size(353, 199);
             this.panel4.TabIndex = 0;
             // 
             // btnXuatReport
             // 
-            this.btnXuatReport.Location = new System.Drawing.Point(48, 140);
+            this.btnXuatReport.Location = new System.Drawing.Point(114, 95);
             this.btnXuatReport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXuatReport.Name = "btnXuatReport";
             this.btnXuatReport.Size = new System.Drawing.Size(114, 23);
@@ -104,7 +106,7 @@ namespace QuanLyThuVien
             // 
             // btnXuatExcel
             // 
-            this.btnXuatExcel.Location = new System.Drawing.Point(48, 170);
+            this.btnXuatExcel.Location = new System.Drawing.Point(114, 122);
             this.btnXuatExcel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXuatExcel.Name = "btnXuatExcel";
             this.btnXuatExcel.Size = new System.Drawing.Size(114, 24);
@@ -115,7 +117,7 @@ namespace QuanLyThuVien
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(3, 28);
+            this.txtTimKiem.Location = new System.Drawing.Point(42, 45);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(293, 22);
@@ -127,7 +129,7 @@ namespace QuanLyThuVien
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(21, 21);
+            this.label1.Location = new System.Drawing.Point(21, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(317, 41);
             this.label1.TabIndex = 1;
@@ -178,6 +180,16 @@ namespace QuanLyThuVien
             this.dgvPhieuMuon.TabIndex = 0;
             this.dgvPhieuMuon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuMuon_CellClick);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(93, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(166, 23);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "HieuDT_3725_LTMT5";
+            // 
             // FormTimPhieuMuon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -214,5 +226,6 @@ namespace QuanLyThuVien
         private Label label1;
         private Button btnXuatExcel;
         private Button btnXuatReport;
+        private Label label3;
     }
 }

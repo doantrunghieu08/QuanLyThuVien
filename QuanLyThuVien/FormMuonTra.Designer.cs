@@ -357,6 +357,7 @@ namespace QuanLyThuVien
             this.dgvMuonTra.RowHeadersWidth = 51;
             this.dgvMuonTra.Size = new System.Drawing.Size(1159, 144);
             this.dgvMuonTra.TabIndex = 3;
+            this.dgvMuonTra.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMuonTra_CellClick);
             // 
             // panel2
             // 
@@ -413,6 +414,7 @@ namespace QuanLyThuVien
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMuonTra";
             this.Text = "FormMuonTra";
+            this.Load += new System.EventHandler(this.FormMuonTra_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);

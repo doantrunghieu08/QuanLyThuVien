@@ -7,48 +7,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Include="obj\Debug\net472\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-	  <Compile Include="obj\Debug\net472\DTO.GlobalUsings.g.cs" />
-	  <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-	  <Compile Include="obj\Debug\net8.0\DTO.AssemblyInfo.cs" />
-	  <Compile Include="obj\Debug\net8.0\DTO.GlobalUsings.g.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Content Include="bin\Debug\net8.0\DTO.deps.json" />
-	  <Content Include="obj\Debug\net472\DTO.csproj.FileListAbsolute.txt" />
-	  <Content Include="obj\Debug\net472\DTO.sourcelink.json" />
-	  <Content Include="obj\Debug\net8.0\DTO.csproj.FileListAbsolute.txt" />
-	  <Content Include="obj\DTO.csproj.nuget.dgspec.json" />
-	  <Content Include="obj\project.assets.json" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Include="bin\Debug\net472\DTO.dll" />
-	  <None Include="bin\Debug\net472\DTO.pdb" />
-	  <None Include="bin\Debug\net8.0\DTO.dll" />
-	  <None Include="bin\Debug\net8.0\DTO.pdb" />
-	  <None Include="obj\Debug\net472\DTO.assets.cache" />
-	  <None Include="obj\Debug\net472\DTO.csproj.AssemblyReference.cache" />
-	  <None Include="obj\Debug\net472\DTO.csproj.BuildWithSkipAnalyzers" />
-	  <None Include="obj\Debug\net472\DTO.csproj.CoreCompileInputs.cache" />
-	  <None Include="obj\Debug\net472\DTO.dll" />
-	  <None Include="obj\Debug\net472\DTO.GeneratedMSBuildEditorConfig.editorconfig" />
-	  <None Include="obj\Debug\net472\DTO.pdb" />
-	  <None Include="obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache" />
-	  <None Include="obj\Debug\net8.0\DTO.assets.cache" />
-	  <None Include="obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache" />
-	  <None Include="obj\Debug\net8.0\DTO.dll" />
-	  <None Include="obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig" />
-	  <None Include="obj\Debug\net8.0\DTO.pdb" />
-	  <None Include="obj\Debug\net8.0\refint\DTO.dll" />
-	  <None Include="obj\Debug\net8.0\ref\DTO.dll" />
-	  <None Include="obj\DTO.csproj.nuget.g.props" />
-	  <None Include="obj\DTO.csproj.nuget.g.targets" />
-	  <None Include="obj\project.nuget.cache" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Reference Include="System.Data" />
 		<Reference Include="System.Drawing" />
 		<Reference Include="System.Xml" />

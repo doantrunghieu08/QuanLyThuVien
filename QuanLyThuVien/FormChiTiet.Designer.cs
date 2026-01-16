@@ -316,6 +316,7 @@ namespace QuanLyThuVien
             this.dgvChiTiet.RowHeadersWidth = 51;
             this.dgvChiTiet.Size = new System.Drawing.Size(1072, 164);
             this.dgvChiTiet.TabIndex = 0;
+            this.dgvChiTiet.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChiTiet_CellClick);
             // 
             // panel3
             // 
@@ -372,6 +373,7 @@ namespace QuanLyThuVien
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormChiTiet";
             this.Text = "FormChiTiet";
+            this.Load += new System.EventHandler(this.FormChiTiet_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
